@@ -1,0 +1,4 @@
+name: mycharm
+summary: A demonstration Go charm.
+description: |
+    A charm that does nothing but demonstrate Gocharm concepts.
