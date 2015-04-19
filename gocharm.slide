@@ -116,7 +116,7 @@ Automatically generated
 
 * Building the charm
 
-	% cd $GOPATH/src/github.com/rogpeppe/gocharms-demo/mycharm-one
+	% cd $GOPATH/src/github.com/rogpeppe/gocharm-demo/mycharm-one
 	% gocharm -v
 	local:trusty/mycharm-one
 	% juju deploy local:trusty/gocharm gocharm
@@ -127,7 +127,7 @@ Automatically generated
 # [show status of running juju environment with running
 # instance of cs:trusty/squid-reverse-proxy, already exposed]
 # 
-#	cd $GOPATH/src/github.com/rogpeppe/gocharms-demo/mycharm-one
+#	cd $GOPATH/src/github.com/rogpeppe/gocharm-demo/mycharm-one
 #	gocharm
 #	juju deploy local:trusty/gocharm
 # 
@@ -283,6 +283,8 @@ Automatically generated
 - Composable
 - Self-contained
 - In Go!
+
+	go get github.com/juju/gocharm/...
 
 # We can write charms in Go in a modular, composable way.
 # We can deploy web services with no extra dependencies,
