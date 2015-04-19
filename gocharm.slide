@@ -286,6 +286,9 @@ Automatically generated
 
 	go get github.com/juju/gocharm/...
 
+.link http://godoc.org/github.com/juju/gocharm/cmd/gocharm 
+.link http://godoc.org/github.com/juju/gocharm/hook
+
 # We can write charms in Go in a modular, composable way.
 # We can deploy web services with no extra dependencies,
 # and charm development is quick, great for initial iterations.
